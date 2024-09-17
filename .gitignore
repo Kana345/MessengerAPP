@@ -1,0 +1,8 @@
+api/node_modules
+api/.env
+
+client/node_modules
+client/.env
+
+socketServer/node_modules
+socketServer/.env
