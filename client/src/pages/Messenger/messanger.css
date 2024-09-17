@@ -1,0 +1,105 @@
+.main_container{
+    display: flex;
+    flex-direction: row;
+
+    height: calc(100vh - 15vh); 
+    width: 100vw;
+    background-color: #f0f2f5;
+    padding:10px;
+
+}
+
+
+.chatMenu{
+    flex: 3.5;
+    height: 100%;
+    background-color: #f0f2f5;
+    border-right: 1px solid #d3d3d3;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.chatArea{
+    flex: 5;
+  
+    height: 100%;
+    background-color: #f0f2f5;
+    border-right: 1px solid #d3d3d3;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.onlineUser{
+    flex:3.5;
+    height: 100%;
+    background-color: #f0f2f5;
+    border-right: 1px solid #d3d3d3;
+}
+
+
+.chatMenuWrapper{
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.TypingSection{
+    position:sticky;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.searchUsers{
+    display: flex;
+    gap:20px;
+}
+
+.searchquery{
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    padding: 5px;
+    outline: none;
+    overflow-y:scroll;
+}
+
+.userProfileImg{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.userProfile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.friendList{
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 5px;
+}
